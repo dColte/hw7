@@ -46,26 +46,27 @@ padding-bottom: 30px;
     height: 44px;
     border-radius: 50%;
     /* background-color: #2196F3; */
-    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 250ms linear
-}
-
-.team-soc-link:hover, 
-.team-soc-link:focus {
+    transition: background-color 250ms linear;
+    &:hover, 
+    &:focus {
     background-color: var(--accent-color);
+    }
 }
 
-.team-soc-link:hover .team-soc-icon, 
-.team-soc-link:focus .team-soc-icon {
-    fill: #FFFFFF;
-}
-
+// .team-soc-link:hover, 
+// .team-soc-link:focus {
+//     background-color: var(--accent-color);
+// }
 
 .team-soc-icon {
-    fill: #AFB1BA
+    fill: #AFB1BA;
+    .team-soc-link:hover &, 
+    .team-soc-link:focus & {
+    fill: #FFFFFF;
+    }
 }
 
 .team-titel-name {
@@ -78,6 +79,7 @@ letter-spacing: 0.03em;
 color: var(--main-text);
 margin-bottom: 10px;
 }
+
 .team-text {
 font-size: 16px;
 line-height: 1.18;
