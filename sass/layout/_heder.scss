@@ -4,7 +4,7 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-logo{
+.navigation__logo{
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -14,26 +14,26 @@ line-height: 1.38;
 color: #212121;
 margin-right: 93px;
 }
-.text-logo{
+.text__logo{
     color: #2196F3;
 }
 
-.heder-navigation {
+.navigation {
     display: flex;
     align-items: center;
 }
 
-.heder-conteiner {
+.heder__conteiner {
     display: flex;
     align-items: center;
 }
 
-.header-list {
+.memu {
     display: flex;
     gap: 50px; 
 }
 
-.header-link{
+.memu__link {
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
@@ -72,7 +72,7 @@ transition: color 250ms linear;
 }
 
 
-.header-link.current::after {
+.memu__link .current::after {
     content: "";
     background-color: var(--accent-color);
     height: 4px;
@@ -88,14 +88,14 @@ transition: color 250ms linear;
 
 
 
-.contact-list {
+.heder__contact {
     display: flex;
     align-items: center;
     margin-left: auto;
     gap: 50px;
 }
 
-.headr-mail{
+.contact__mail {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -110,7 +110,7 @@ transition: color 250ms linear;
     }
 }
 
-.header-tel{
+.contact__tel{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -124,7 +124,7 @@ transition: color 250ms linear;
     }
 }
 
-.heder-contact-icon {
+.contact__icon {
     margin-right: 10px;
     fill: currentColor;
     &:hover,

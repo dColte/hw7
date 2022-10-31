@@ -2,12 +2,12 @@
     padding-top: 94px;
 }
 
-.features-list {
+.picture__list {
     display: flex;
     gap: 30px;
 }
 
-.features-icon {
+.picture__icon {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -17,12 +17,12 @@
     align-items: center;
 }
 
-.features-item-icon {
+.picture__item__icon {
     width: 70px;
     height: 70px;
 }
 
-.features-titel {
+.picture__titel {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -34,7 +34,7 @@ max-width: 270px;
 }
 
 
-.features-text {
+.picture__text {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;

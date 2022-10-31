@@ -3,16 +3,16 @@
     padding-bottom: 94px;
 }
 
-.work-list {
+.options__list {
     display: flex;
     gap: 30px;
 }
 
-.work-item-text {
+.options__item-text {
     position: relative;
 }
 
-.work-icon-text {
+.options__icon-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -30,7 +30,7 @@
     padding: 27px;
 }
 
-.work-titel{
+.work__titel {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
